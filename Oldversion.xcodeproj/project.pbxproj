@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		28B63F0B2CEE20700087E095 /* Exceptions for "Oldversion" folder in "Oldversion" target */ = {
+		28B63F0B2CEE20700087E095 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,24 +40,9 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		28B63EE22CEE206E0087E095 /* Oldversion */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				28B63F0B2CEE20700087E095 /* Exceptions for "Oldversion" folder in "Oldversion" target */,
-			);
-			path = Oldversion;
-			sourceTree = "<group>";
-		};
-		28B63EFC2CEE20700087E095 /* OldversionTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = OldversionTests;
-			sourceTree = "<group>";
-		};
-		28B63F062CEE20700087E095 /* OldversionUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = OldversionUITests;
-			sourceTree = "<group>";
-		};
+		28B63EE22CEE206E0087E095 /* Oldversion */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (28B63F0B2CEE20700087E095 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Oldversion; sourceTree = "<group>"; };
+		28B63EFC2CEE20700087E095 /* OldversionTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = OldversionTests; sourceTree = "<group>"; };
+		28B63F062CEE20700087E095 /* OldversionUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = OldversionUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +185,7 @@
 				};
 			};
 			buildConfigurationList = 28B63EDB2CEE206E0087E095 /* Build configuration list for PBXProject "Oldversion" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -208,7 +194,6 @@
 			);
 			mainGroup = 28B63ED72CEE206E0087E095;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 28B63EE12CEE206E0087E095 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
